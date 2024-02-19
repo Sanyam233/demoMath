@@ -1,16 +1,32 @@
 from setuptools import setup, find_packages
+import codecs
+import os
 
+here = os.path.abspath(os.path.dirname(__file__))
+
+
+VERSION = '0.0.1'
+DESCRIPTION = 'demo math package for testing'
+LONG_DESCRIPTION = 'demo long decription'
+
+# Setting up
 setup(
-    name="demoMath01",
-    version="0.0.0",
+    name="demooMath",
+    version=VERSION,
     author="Sanyam Gupta",
     author_email="sanyam233@gmail.com",
-    description="demo add and subtract functions",
+    description=DESCRIPTION,
+    long_description_content_type="text/markdown",
+    long_description="demo long description",
     packages=find_packages(),
+    install_requires=[],
+    keywords=[],
     classifiers=[
+        "Development Status :: 1 - Planning",
+        "Intended Audience :: Developers",
         "Programming Language :: Python :: 3",
-        "License :: OSI Approved :: MIT License",
-        "Operating System :: OS Independent",
-    ],
-    entry_points={"console_scripts": ["demoMath01 = src.main"]},
+        "Operating System :: Unix",
+        "Operating System :: MacOS :: MacOS X",
+        "Operating System :: Microsoft :: Windows",
+    ]
 )
