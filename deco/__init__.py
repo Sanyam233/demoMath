@@ -1,2 +1,2 @@
-from math import *
-from p import *
+from .math import *
+from .p import *
