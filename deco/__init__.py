@@ -1,2 +1,3 @@
-from .math import *
-from .p import *
+import math as m
+import p as py
+
