@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="demoMath",
+    name="demoMath01",
     version="0.0.0",
     author="Sanyam Gupta",
     author_email="sanyam233@gmail.com",
@@ -12,5 +12,5 @@ setup(
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
     ],
-    entry_points={"console_scripts": ["demoMath = src.main"]},
+    entry_points={"console_scripts": ["demoMath01 = src.main"]},
 )
